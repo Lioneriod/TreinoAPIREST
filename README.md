@@ -1,2 +1,2 @@
 # TreinoAPIREST
-Aprendendo na marra essa bagaça
+Aprendendo na marra esse inferno
