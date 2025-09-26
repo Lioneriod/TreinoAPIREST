@@ -1,6 +1,9 @@
 # TreinoAPIREST
-Sim, acredite se quiser, precisa baixar o venv pra rodar já que não tenho admin
-E aprendendo django do zero pra entregar um projeto em 1 semana
+Aprendendo django do zero pra entregar um projeto em 1 semana
+
+O projeto se trata de uma API Rest que vai se comunicar com um banco de dados relacional com pelo menos 2 recursos. 
+
+Decidi fazer um trabalho de "geladeira inteligente" ou "app de receitas"
 ## Tecnologias utilizadas:
 - Python
 - Django (ou flask, ver melhor isso)
