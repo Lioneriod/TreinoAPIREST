@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'cookbook.urls'
+ROOT_URLCONF = 'CBproject.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cookbook.wsgi.application'
+WSGI_APPLICATION = 'CBproject.wsgi.application'
 
 
 # Database

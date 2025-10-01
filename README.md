@@ -6,7 +6,16 @@ O projeto se trata de uma API Rest que vai se comunicar com um banco de dados re
 Decidi fazer um trabalho de "geladeira inteligente" ou "app de receitas". Pra variar tudo escrito em inglês, então o app é "cookbook"
 ## Tecnologias utilizadas:
 - Python
-- Django (ou flask, ver melhor isso)
-## Recursos
+- Django
+## Recursos:
 - Receitas
-- Ingredientes (TEM que ser maior que receitas, se não fica feio)
+- Ingredientes
+## Deploy:
+https://lioneriod.pythonanywhere.com/api/
+## Como usar ela localmente:
+- Acesse a pasta CBproject, que contém o manage.py
+- rode no terminal da pasta: python manage.py runserver
+- Acesse o link local
+- Para editar informações dispostas na API, acesse /admin
+- User: admin / Password: password
+
