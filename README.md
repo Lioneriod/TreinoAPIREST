@@ -16,6 +16,7 @@ https://lioneriod.pythonanywhere.com/api/
 - Acesse a pasta CBproject, que contém o manage.py
 - rode no terminal da pasta: python manage.py runserver
 - Acesse o link local
-- Para editar informações dispostas na API, acesse /admin
+- Consuma a API como preferir
+- Para acesso de admin:
 - User: admin / Password: password
 
