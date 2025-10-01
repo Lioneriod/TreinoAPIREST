@@ -9,8 +9,10 @@ class Ingrediente(models.Model):
 
 
 class Receita(models.Model):
-    titulo = models.CharField(max_length=100)
-    ingredientes = models.ManyToManyField(Ingrediente, through='ReceitaIngrediente', related_name="receitas")
+    titulo = models.CharField(max_length=200)
+    descricao = models.TextField(blank=True, null=True)  # <-- permite vazio
+    ingredientes = models.ManyToManyField(Ingrediente, through="ReceitaIngrediente")
+
 
 class ReceitaIngrediente(models.Model):
     receita = models.ForeignKey(Receita, on_delete=models.CASCADE)
@@ -20,5 +22,6 @@ class ReceitaIngrediente(models.Model):
         unique_together = ('receita', 'ingrediente')
 
 
-    def __str__(self):
-        return self.titulo
+def __str__(self):
+    return f"{self.receita.titulo} - {self.ingrediente.nome}"
+
