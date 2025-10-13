@@ -19,4 +19,4 @@ https://lioneriod.pythonanywhere.com/api/
 - Acesse o link local
 - Consuma a API como preferir
 - Para acesso de admin:
-- User: admin / Password: password
+- User: admin / Password: !p455w0rd
